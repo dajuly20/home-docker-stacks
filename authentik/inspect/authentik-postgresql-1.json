@@ -1,0 +1,303 @@
+[
+    {
+        "Id": "b81d557f31d839c537909d10399a387a6049a39053ff9efe01676a1e396d2bab",
+        "Created": "2025-08-23T17:59:30.600819764Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "postgres"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 569875,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-10-26T04:01:39.035721212Z",
+            "FinishedAt": "2025-10-26T04:01:26.585953091Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2025-10-26T05:53:49.224107293+01:00",
+                        "End": "2025-10-26T05:53:49.264805813+01:00",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    },
+                    {
+                        "Start": "2025-10-26T05:54:19.265478943+01:00",
+                        "End": "2025-10-26T05:54:19.310323222+01:00",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    },
+                    {
+                        "Start": "2025-10-26T05:54:49.311309651+01:00",
+                        "End": "2025-10-26T05:54:49.347329329+01:00",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    },
+                    {
+                        "Start": "2025-10-26T05:55:19.348634584+01:00",
+                        "End": "2025-10-26T05:55:19.38893108+01:00",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    },
+                    {
+                        "Start": "2025-10-26T05:55:49.389648586+01:00",
+                        "End": "2025-10-26T05:55:49.426696193+01:00",
+                        "ExitCode": 0,
+                        "Output": "/var/run/postgresql:5432 - accepting connections\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:3b527b2c105a6f2d89fcb81fd6c99a09df64651f99cb4a727282ee57dced5e5c",
+        "ResolvConfPath": "/var/lib/docker/containers/b81d557f31d839c537909d10399a387a6049a39053ff9efe01676a1e396d2bab/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/b81d557f31d839c537909d10399a387a6049a39053ff9efe01676a1e396d2bab/hostname",
+        "HostsPath": "/var/lib/docker/containers/b81d557f31d839c537909d10399a387a6049a39053ff9efe01676a1e396d2bab/hosts",
+        "LogPath": "/var/lib/docker/containers/b81d557f31d839c537909d10399a387a6049a39053ff9efe01676a1e396d2bab/b81d557f31d839c537909d10399a387a6049a39053ff9efe01676a1e396d2bab-json.log",
+        "Name": "/authentik-postgresql-1",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "authentik_database:/var/lib/postgresql/data:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "authentik_default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "b81d557f31d839c537909d10399a387a6049a39053ff9efe01676a1e396d2bab",
+                "LowerDir": "/var/lib/docker/overlay2/b44176681c41f582d2edad957994d0dfd1217b3a288c58c5154eceef20ba2871-init/diff:/var/lib/docker/overlay2/bba53ec260a0c180eda40770233bb9e8bd67c5a597f487a2c2f1c92829afe60d/diff:/var/lib/docker/overlay2/7ee4817207b9ba5a5b8aefd8e43c8b1fbc5b75e35a852836fea052cf5875355e/diff:/var/lib/docker/overlay2/e9d6c0ca27a6bd68ceea113ccaca6f5e5bb8514190071e52535d4eebef6d256a/diff:/var/lib/docker/overlay2/eec342489c15dc67d4b6e37a228f7fa66d05213e87ec702a0ff85715dc64493b/diff:/var/lib/docker/overlay2/c938cebc3bbb8566252d3cd3b6561a7e3ffda5e8f700cc54edde466d1a0b25b4/diff:/var/lib/docker/overlay2/6e6ea0295957259731d32f01c9523fe80963f6e23e3f2a1c07a07221c24d5330/diff:/var/lib/docker/overlay2/deec959ad10367eb8f1ae0eb8d4896bcc81127b97050b0cd176d2d96407d86cf/diff:/var/lib/docker/overlay2/6260b0c6d8b25fb7042d2542aac5097cd9d1c1d0297f851d5d2008967b4417ba/diff:/var/lib/docker/overlay2/e2d09093efd09f16175a0007fe683041a5a4f1cb1dcf051ff62acc9e0cb4e219/diff:/var/lib/docker/overlay2/60bbdf16d552e2367bcabb6a541d84acffb51bd502e06ec879b2c1f983866a55/diff:/var/lib/docker/overlay2/caf4bef3e94e2026bcd88fb1fbbb5ccfabb1f9b2c675677f19f20ba5881fcbd5/diff",
+                "MergedDir": "/var/lib/docker/overlay2/b44176681c41f582d2edad957994d0dfd1217b3a288c58c5154eceef20ba2871/merged",
+                "UpperDir": "/var/lib/docker/overlay2/b44176681c41f582d2edad957994d0dfd1217b3a288c58c5154eceef20ba2871/diff",
+                "WorkDir": "/var/lib/docker/overlay2/b44176681c41f582d2edad957994d0dfd1217b3a288c58c5154eceef20ba2871/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "authentik_database",
+                "Source": "/var/lib/docker/volumes/authentik_database/_data",
+                "Destination": "/var/lib/postgresql/data",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "b81d557f31d8",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "5432/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "AUTHENTIK_SECRET_KEY=HJw2O8JoXQN5TtWVWyvqkuIKwbunVs1lRM0IVGaEIoq13mWMmqYtbdZXXkRspeHAO2aVE2cydsulyrjF",
+                "COMPOSE_PORT_HTTPS=7443",
+                "POSTGRES_USER=authentik",
+                "AUTHENTIK_ERROR_REPORTING__ENABLED=true",
+                "COMPOSE_PORT_HTTP=7000",
+                "POSTGRES_DB=authentik",
+                "POSTGRES_PASSWORD=na4f4orYq2mk/ILArbZJlEdjtD8BjMc3hIAT8OvPvznyKpRr",
+                "PG_PASS=na4f4orYq2mk/ILArbZJlEdjtD8BjMc3hIAT8OvPvznyKpRr",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.17",
+                "LANG=en_US.utf8",
+                "PG_MAJOR=16",
+                "PG_VERSION=16.10",
+                "PG_SHA256=de8485f4ce9c32e3ddfeef0b7c261eed1cecb54c9bcd170e437ff454cb292b42",
+                "DOCKER_PG_LLVM_DEPS=llvm19-dev \t\tclang19",
+                "PGDATA=/var/lib/postgresql/data"
+            ],
+            "Cmd": [
+                "postgres"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "pg_isready -d ${POSTGRES_DB} -U ${POSTGRES_USER}"
+                ],
+                "Interval": 30000000000,
+                "Timeout": 5000000000,
+                "StartPeriod": 20000000000,
+                "Retries": 5
+            },
+            "Image": "docker.io/library/postgres:16-alpine",
+            "Volumes": {
+                "/var/lib/postgresql/data": {}
+            },
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "ed7c520794278bebee001b0553d2fbe7450f69ce661f33fcf9f69dc41bc5d899",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:3b527b2c105a6f2d89fcb81fd6c99a09df64651f99cb4a727282ee57dced5e5c",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "authentik",
+                "com.docker.compose.project.config_files": "/home/julian/authentik/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/julian/authentik",
+                "com.docker.compose.service": "postgresql",
+                "com.docker.compose.version": "2.39.1"
+            },
+            "StopSignal": "SIGINT"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "3ece3416046ee311642e93809ede70ee5cd5e8e0566960fcf6cb5822177e6a91",
+            "SandboxKey": "/var/run/docker/netns/3ece3416046e",
+            "Ports": {
+                "5432/tcp": null
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "authentik_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "authentik-postgresql-1",
+                        "postgresql"
+                    ],
+                    "MacAddress": "3e:63:48:15:ae:9e",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "46c7136aa454b9ed87b31eed9a89e59d7fd111299deb8e4ffe1ad459c7ac8581",
+                    "EndpointID": "eee0a383ac3943799343ed05ac9a3cb6d4559c7d5024998380ef0b5cf6deffa1",
+                    "Gateway": "192.168.160.1",
+                    "IPAddress": "192.168.160.2",
+                    "IPPrefixLen": 20,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "authentik-postgresql-1",
+                        "postgresql",
+                        "b81d557f31d8"
+                    ]
+                }
+            }
+        }
+    }
+]

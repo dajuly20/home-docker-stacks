@@ -78,8 +78,7 @@ services:
     volumes:
     - /var/run/docker.sock:/var/run/docker.sock
     - ./media:/media
-    - ./certs:/certs/upload
-    - /etc/letsencrypt/live:/certs/live
+    - /etc/letsencrypt/live:/certs
     - ./custom-templates:/templates
 volumes:
   database:

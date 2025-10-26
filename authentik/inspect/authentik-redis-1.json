@@ -1,0 +1,297 @@
+[
+    {
+        "Id": "3a836cf62f05f005566dbb63cff473e73fae4d7025eb7c5e805f8aedf008c71e",
+        "Created": "2025-08-23T17:59:30.600697331Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "--save",
+            "60",
+            "1",
+            "--loglevel",
+            "warning"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 570399,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-10-26T04:01:39.095980034Z",
+            "FinishedAt": "2025-10-26T04:01:26.208480782Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2025-10-26T05:53:50.476824265+01:00",
+                        "End": "2025-10-26T05:53:50.512684619+01:00",
+                        "ExitCode": 0,
+                        "Output": "PONG\n"
+                    },
+                    {
+                        "Start": "2025-10-26T05:54:20.513231388+01:00",
+                        "End": "2025-10-26T05:54:20.546727194+01:00",
+                        "ExitCode": 0,
+                        "Output": "PONG\n"
+                    },
+                    {
+                        "Start": "2025-10-26T05:54:50.547968529+01:00",
+                        "End": "2025-10-26T05:54:50.585891809+01:00",
+                        "ExitCode": 0,
+                        "Output": "PONG\n"
+                    },
+                    {
+                        "Start": "2025-10-26T05:55:20.586798004+01:00",
+                        "End": "2025-10-26T05:55:20.624660248+01:00",
+                        "ExitCode": 0,
+                        "Output": "PONG\n"
+                    },
+                    {
+                        "Start": "2025-10-26T05:55:50.625798244+01:00",
+                        "End": "2025-10-26T05:55:50.662577259+01:00",
+                        "ExitCode": 0,
+                        "Output": "PONG\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:6f5542508b8b0f789f6d337b5eb48f86af82ef31df2f831d9e4748ed8a986bbd",
+        "ResolvConfPath": "/var/lib/docker/containers/3a836cf62f05f005566dbb63cff473e73fae4d7025eb7c5e805f8aedf008c71e/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/3a836cf62f05f005566dbb63cff473e73fae4d7025eb7c5e805f8aedf008c71e/hostname",
+        "HostsPath": "/var/lib/docker/containers/3a836cf62f05f005566dbb63cff473e73fae4d7025eb7c5e805f8aedf008c71e/hosts",
+        "LogPath": "/var/lib/docker/containers/3a836cf62f05f005566dbb63cff473e73fae4d7025eb7c5e805f8aedf008c71e/3a836cf62f05f005566dbb63cff473e73fae4d7025eb7c5e805f8aedf008c71e-json.log",
+        "Name": "/authentik-redis-1",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "authentik_redis:/data:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "authentik_default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "3a836cf62f05f005566dbb63cff473e73fae4d7025eb7c5e805f8aedf008c71e",
+                "LowerDir": "/var/lib/docker/overlay2/2b1840a6b02349a6adb62dc8817d9ea23c7ce1d347072ee0ba1b1834184fdd5b-init/diff:/var/lib/docker/overlay2/5b7bb16a9fa48dba8898e7740611df25d915e6ecb248dcf8d8270825c3fd9f90/diff:/var/lib/docker/overlay2/010e8233e2edf08cb82373e7c8943ba19f5391bc13f20aa385cc36177066b316/diff:/var/lib/docker/overlay2/8f4cc88342b8aff3c9568b335094138cca388c64994e80f98fcdd145c297b354/diff:/var/lib/docker/overlay2/5695a45acbe01c45c31b3ad764a70aa03e5b8c245824b5e2178d40999938fbae/diff:/var/lib/docker/overlay2/3156590fd9c214d34970348d11ca8bfa7f5e1df8373269a79c6e6fc9ad16e44e/diff:/var/lib/docker/overlay2/ad1b864136c43a533c8073d9e8fbf5556dfe59f841290fdc665f9bca74674de5/diff:/var/lib/docker/overlay2/caf4bef3e94e2026bcd88fb1fbbb5ccfabb1f9b2c675677f19f20ba5881fcbd5/diff",
+                "MergedDir": "/var/lib/docker/overlay2/2b1840a6b02349a6adb62dc8817d9ea23c7ce1d347072ee0ba1b1834184fdd5b/merged",
+                "UpperDir": "/var/lib/docker/overlay2/2b1840a6b02349a6adb62dc8817d9ea23c7ce1d347072ee0ba1b1834184fdd5b/diff",
+                "WorkDir": "/var/lib/docker/overlay2/2b1840a6b02349a6adb62dc8817d9ea23c7ce1d347072ee0ba1b1834184fdd5b/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "authentik_redis",
+                "Source": "/var/lib/docker/volumes/authentik_redis/_data",
+                "Destination": "/data",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "3a836cf62f05",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "6379/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "REDIS_DOWNLOAD_URL=http://download.redis.io/releases/redis-8.2.1.tar.gz",
+                "REDIS_DOWNLOAD_SHA=e2c1cb9dd4180a35b943b85dfc7dcdd42566cdbceca37d0d0b14c21731582d3e"
+            ],
+            "Cmd": [
+                "--save",
+                "60",
+                "1",
+                "--loglevel",
+                "warning"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "redis-cli ping | grep PONG"
+                ],
+                "Interval": 30000000000,
+                "Timeout": 3000000000,
+                "StartPeriod": 20000000000,
+                "Retries": 5
+            },
+            "Image": "docker.io/library/redis:alpine",
+            "Volumes": {
+                "/data": {}
+            },
+            "WorkingDir": "/data",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "05f5282919253480a4ef27fc8a03a1748411a793bd30ea4e3989f7889c740ebb",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:6f5542508b8b0f789f6d337b5eb48f86af82ef31df2f831d9e4748ed8a986bbd",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "authentik",
+                "com.docker.compose.project.config_files": "/home/julian/authentik/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/julian/authentik",
+                "com.docker.compose.service": "redis",
+                "com.docker.compose.version": "2.39.1"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "77af49bd986883464cab4a9b440c50822133858fd2f5d3359c98c305bdb3b2c2",
+            "SandboxKey": "/var/run/docker/netns/77af49bd9868",
+            "Ports": {
+                "6379/tcp": null
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "authentik_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "authentik-redis-1",
+                        "redis"
+                    ],
+                    "MacAddress": "ba:6f:8a:d0:58:43",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "46c7136aa454b9ed87b31eed9a89e59d7fd111299deb8e4ffe1ad459c7ac8581",
+                    "EndpointID": "0ada74d870e6dafd5a2eed5ea8df98211f93182758d623857d6b1779f44e03f5",
+                    "Gateway": "192.168.160.1",
+                    "IPAddress": "192.168.160.5",
+                    "IPPrefixLen": 20,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "authentik-redis-1",
+                        "redis",
+                        "3a836cf62f05"
+                    ]
+                }
+            }
+        }
+    }
+]

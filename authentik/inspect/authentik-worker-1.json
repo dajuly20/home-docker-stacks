@@ -1,0 +1,344 @@
+[
+    {
+        "Id": "c791d1bb52b133ff9ec346414a489482536b2e855f325d84c15071cb2262c2d0",
+        "Created": "2025-08-23T17:59:30.633305849Z",
+        "Path": "dumb-init",
+        "Args": [
+            "--",
+            "ak",
+            "worker"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 570195,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-10-26T04:01:39.054353255Z",
+            "FinishedAt": "2025-10-26T04:01:28.502275383Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2025-10-26T05:54:01.544625137+01:00",
+                        "End": "2025-10-26T05:54:01.931274414+01:00",
+                        "ExitCode": 0,
+                        "Output": "{\"event\":\"checking health\",\"level\":\"debug\",\"mode\":\"worker\",\"timestamp\":\"2025-10-26T04:54:01Z\"}\n{\"event\":\"Loaded config\",\"level\":\"debug\",\"path\":\"inbuilt-default\",\"timestamp\":\"2025-10-26T04:54:01Z\"}\n{\"event\":\"Loaded config\",\"level\":\"debug\",\"path\":\"/authentik/lib/default.yml\",\"timestamp\":\"2025-10-26T04:54:01Z\"}\n{\"event\":\"Loaded config from environment\",\"level\":\"debug\",\"timestamp\":\"2025-10-26T04:54:01Z\"}\n"
+                    },
+                    {
+                        "Start": "2025-10-26T05:54:31.93247665+01:00",
+                        "End": "2025-10-26T05:54:32.219618094+01:00",
+                        "ExitCode": 0,
+                        "Output": "{\"event\":\"checking health\",\"level\":\"debug\",\"mode\":\"worker\",\"timestamp\":\"2025-10-26T04:54:32Z\"}\n{\"event\":\"Loaded config\",\"level\":\"debug\",\"path\":\"inbuilt-default\",\"timestamp\":\"2025-10-26T04:54:32Z\"}\n{\"event\":\"Loaded config\",\"level\":\"debug\",\"path\":\"/authentik/lib/default.yml\",\"timestamp\":\"2025-10-26T04:54:32Z\"}\n{\"event\":\"Loaded config from environment\",\"level\":\"debug\",\"timestamp\":\"2025-10-26T04:54:32Z\"}\n"
+                    },
+                    {
+                        "Start": "2025-10-26T05:55:02.220360811+01:00",
+                        "End": "2025-10-26T05:55:02.569065337+01:00",
+                        "ExitCode": 0,
+                        "Output": "{\"event\":\"checking health\",\"level\":\"debug\",\"mode\":\"worker\",\"timestamp\":\"2025-10-26T04:55:02Z\"}\n{\"event\":\"Loaded config\",\"level\":\"debug\",\"path\":\"inbuilt-default\",\"timestamp\":\"2025-10-26T04:55:02Z\"}\n{\"event\":\"Loaded config\",\"level\":\"debug\",\"path\":\"/authentik/lib/default.yml\",\"timestamp\":\"2025-10-26T04:55:02Z\"}\n{\"event\":\"Loaded config from environment\",\"level\":\"debug\",\"timestamp\":\"2025-10-26T04:55:02Z\"}\n"
+                    },
+                    {
+                        "Start": "2025-10-26T05:55:32.570021208+01:00",
+                        "End": "2025-10-26T05:55:32.882007195+01:00",
+                        "ExitCode": 0,
+                        "Output": "{\"event\":\"checking health\",\"level\":\"debug\",\"mode\":\"worker\",\"timestamp\":\"2025-10-26T04:55:32Z\"}\n{\"event\":\"Loaded config\",\"level\":\"debug\",\"path\":\"inbuilt-default\",\"timestamp\":\"2025-10-26T04:55:32Z\"}\n{\"event\":\"Loaded config\",\"level\":\"debug\",\"path\":\"/authentik/lib/default.yml\",\"timestamp\":\"2025-10-26T04:55:32Z\"}\n{\"event\":\"Loaded config from environment\",\"level\":\"debug\",\"timestamp\":\"2025-10-26T04:55:32Z\"}\n"
+                    },
+                    {
+                        "Start": "2025-10-26T05:56:02.883575175+01:00",
+                        "End": "2025-10-26T05:56:03.168902792+01:00",
+                        "ExitCode": 0,
+                        "Output": "{\"event\":\"checking health\",\"level\":\"debug\",\"mode\":\"worker\",\"timestamp\":\"2025-10-26T04:56:03Z\"}\n{\"event\":\"Loaded config\",\"level\":\"debug\",\"path\":\"inbuilt-default\",\"timestamp\":\"2025-10-26T04:56:03Z\"}\n{\"event\":\"Loaded config\",\"level\":\"debug\",\"path\":\"/authentik/lib/default.yml\",\"timestamp\":\"2025-10-26T04:56:03Z\"}\n{\"event\":\"Loaded config from environment\",\"level\":\"debug\",\"timestamp\":\"2025-10-26T04:56:03Z\"}\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:650da939c425e0e0669e2c4dcc83a57c00710d3faf0f73eaff9cd8bed0abbb01",
+        "ResolvConfPath": "/var/lib/docker/containers/c791d1bb52b133ff9ec346414a489482536b2e855f325d84c15071cb2262c2d0/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/c791d1bb52b133ff9ec346414a489482536b2e855f325d84c15071cb2262c2d0/hostname",
+        "HostsPath": "/var/lib/docker/containers/c791d1bb52b133ff9ec346414a489482536b2e855f325d84c15071cb2262c2d0/hosts",
+        "LogPath": "/var/lib/docker/containers/c791d1bb52b133ff9ec346414a489482536b2e855f325d84c15071cb2262c2d0/c791d1bb52b133ff9ec346414a489482536b2e855f325d84c15071cb2262c2d0-json.log",
+        "Name": "/authentik-worker-1",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/home/julian/authentik/certs:/certs:rw",
+                "/home/julian/authentik/custom-templates:/templates:rw",
+                "/var/run/docker.sock:/var/run/docker.sock:rw",
+                "/home/julian/authentik/media:/media:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "authentik_default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "c791d1bb52b133ff9ec346414a489482536b2e855f325d84c15071cb2262c2d0",
+                "LowerDir": "/var/lib/docker/overlay2/c13acb123beefb3eebca754dca04d3ca8a4fdcdd12580f2bebd2e423a01c853a-init/diff:/var/lib/docker/overlay2/2e5e72bc4173221040e04d64a9ebbc1427312c045c61b2e31f015dfe5f4b43f1/diff:/var/lib/docker/overlay2/0565e55ee20bf20db909cd68b06ec5fefe99ac23f583e6491cf94968cd6989ef/diff:/var/lib/docker/overlay2/72c9e1c7c7573a1ad7de2402176851458bfbe923d70893040592621651c010a4/diff:/var/lib/docker/overlay2/ac1880a7da0822b2e48af43b7cd5642f0fbc6172b20a88746c78a3c94e791c64/diff:/var/lib/docker/overlay2/182a02ac73fd301bb121784b5def9bf1bb605c53fdd954ee56002e9ab6fb8db2/diff:/var/lib/docker/overlay2/cac13b6db6761db9386527d4690c7619d54dbc23fde9297591227cbc4b9fc908/diff:/var/lib/docker/overlay2/b42ec812a2fe26ea39d13c85cf72eef26c3de90b9aaa0b3a39a0a9af7d2e29f2/diff:/var/lib/docker/overlay2/b005f2da9b74df0befe384df60763168d8f0438c7b596e9f09db435eb74b78da/diff:/var/lib/docker/overlay2/0ccdc1b1a175f9c9dec1f3efcfb566c1d386b3b0ab23d2e05064bc040386d018/diff:/var/lib/docker/overlay2/ef64163159e30f841d5a99365326df3b6e2545adc29dd7c2f672782ddb1e86c5/diff:/var/lib/docker/overlay2/8b11a724e6dffc5ba44316030b6a27c66542738a4d1b4a5eb809886fb43ff159/diff:/var/lib/docker/overlay2/4a343d942089c135554d44d8687702195633505c5044f83fced91c13f0ae7029/diff:/var/lib/docker/overlay2/807c79fc3e5338508b7dba73b34fdd269a7d90f5bc7612ae5e191239f8e0ffe9/diff:/var/lib/docker/overlay2/70e93a519da9059f99c5f6cffe9b5d85efc1ffc0002455b1e01ec584da966e71/diff:/var/lib/docker/overlay2/03f08008e09c39c8582f7c82e05a8ae8685c99ccdcd2da1c104d2199a9e8e9de/diff:/var/lib/docker/overlay2/dfac79af150cba904ca5b959611ca810502db8a8107982edce42802d3e7241a4/diff:/var/lib/docker/overlay2/40c5c698f7361cffc64653b2c4af79037b49dee17a75ffe5b11b76616b261119/diff:/var/lib/docker/overlay2/1755cd021ecd89cb5fa07b7960930a936ce66afec7da132444e20df4b74c4203/diff:/var/lib/docker/overlay2/795c8956414a0960ab1f3d8d2fa138ac5c351008083cae48e3c9bc94157174b7/diff:/var/lib/docker/overlay2/05ebe1d0b865971f8f663a2c6afab621d20017ff7048ed6ec2681f0e7fe52279/diff:/var/lib/docker/overlay2/363212cddaf2327dbccceee34c6d1b367d3bd14a1ec2069d7c8aa540c823c78e/diff:/var/lib/docker/overlay2/6221f8403be13cc3927d2738622a7d4cbe22d7669997431166b143c2f3819a9d/diff:/var/lib/docker/overlay2/c7dd93d91ef14ca761beaa262cfadd917ef515b777a6d11fe4b06fb1ec05a37c/diff:/var/lib/docker/overlay2/bb6514438a55ba960d21de5c640b522f7ca29d31d24f5e883f978f7f7bdeb5ee/diff:/var/lib/docker/overlay2/604a48d1384720bc7712702cdae4ce4404c08c1ad992e0dda236015cc588c807/diff:/var/lib/docker/overlay2/77713c4ec4fbefb2d39f1ae0ec906e8159eef0b33fa3b61dd70b9af125afed00/diff:/var/lib/docker/overlay2/3129780c3ff23b3a6bae1341db3ffd7c52e90502c72220edeb7cc4a8f65685a3/diff:/var/lib/docker/overlay2/f337bebe505d176b6769a3a33557e087f40e0b5f2780800bd8eb0e9174d63352/diff",
+                "MergedDir": "/var/lib/docker/overlay2/c13acb123beefb3eebca754dca04d3ca8a4fdcdd12580f2bebd2e423a01c853a/merged",
+                "UpperDir": "/var/lib/docker/overlay2/c13acb123beefb3eebca754dca04d3ca8a4fdcdd12580f2bebd2e423a01c853a/diff",
+                "WorkDir": "/var/lib/docker/overlay2/c13acb123beefb3eebca754dca04d3ca8a4fdcdd12580f2bebd2e423a01c853a/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/julian/authentik/certs",
+                "Destination": "/certs",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/julian/authentik/media",
+                "Destination": "/media",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/julian/authentik/custom-templates",
+                "Destination": "/templates",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/var/run/docker.sock",
+                "Destination": "/var/run/docker.sock",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "c791d1bb52b1",
+            "Domainname": "",
+            "User": "root",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "AUTHENTIK_POSTGRESQL__PASSWORD=na4f4orYq2mk/ILArbZJlEdjtD8BjMc3hIAT8OvPvznyKpRr",
+                "AUTHENTIK_ERROR_REPORTING__ENABLED=true",
+                "AUTHENTIK_POSTGRESQL__HOST=postgresql",
+                "AUTHENTIK_SECRET_KEY=HJw2O8JoXQN5TtWVWyvqkuIKwbunVs1lRM0IVGaEIoq13mWMmqYtbdZXXkRspeHAO2aVE2cydsulyrjF",
+                "AUTHENTIK_POSTGRESQL__NAME=authentik",
+                "AUTHENTIK_REDIS__HOST=redis",
+                "COMPOSE_PORT_HTTP=7000",
+                "AUTHENTIK_POSTGRESQL__USER=authentik",
+                "COMPOSE_PORT_HTTPS=7443",
+                "PG_PASS=na4f4orYq2mk/ILArbZJlEdjtD8BjMc3hIAT8OvPvznyKpRr",
+                "PATH=/lifecycle:/ak-root/.venv/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "build_root=/build",
+                "SSL_CERT_DIR=/etc/ssl/certs",
+                "LANG=C.UTF-8",
+                "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+                "VENV_PATH=/ak-root/.venv",
+                "UV_COMPILE_BYTECODE=1",
+                "UV_LINK_MODE=copy",
+                "UV_NATIVE_TLS=1",
+                "UV_PYTHON_DOWNLOADS=0",
+                "GIT_BUILD_HASH=",
+                "TMPDIR=/dev/shm/",
+                "PYTHONDONTWRITEBYTECODE=1",
+                "PYTHONUNBUFFERED=1",
+                "GOFIPS=1"
+            ],
+            "Cmd": [
+                "worker"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD",
+                    "ak",
+                    "healthcheck"
+                ],
+                "Interval": 30000000000,
+                "Timeout": 30000000000,
+                "StartPeriod": 60000000000,
+                "Retries": 3
+            },
+            "Image": "ghcr.io/goauthentik/server:2025.8.1",
+            "Volumes": null,
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "dumb-init",
+                "--",
+                "ak"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "6b736597407dc9a147a530cb5462884a98466a6793b3c9e5499ee4f4cd1c4789",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "redis:service_healthy:false,postgresql:service_healthy:false",
+                "com.docker.compose.image": "sha256:650da939c425e0e0669e2c4dcc83a57c00710d3faf0f73eaff9cd8bed0abbb01",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "authentik",
+                "com.docker.compose.project.config_files": "/home/julian/authentik/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/julian/authentik",
+                "com.docker.compose.service": "worker",
+                "com.docker.compose.version": "2.39.1",
+                "org.opencontainers.image.authors": "Authentik Security Inc.",
+                "org.opencontainers.image.description": "goauthentik.io Main server image, see https://goauthentik.io for more info.",
+                "org.opencontainers.image.documentation": "https://docs.goauthentik.io",
+                "org.opencontainers.image.licenses": "https://github.com/goauthentik/authentik/blob/main/LICENSE",
+                "org.opencontainers.image.revision": "",
+                "org.opencontainers.image.source": "https://github.com/goauthentik/authentik",
+                "org.opencontainers.image.title": "authentik server image",
+                "org.opencontainers.image.url": "https://goauthentik.io",
+                "org.opencontainers.image.vendor": "Authentik Security Inc.",
+                "org.opencontainers.image.version": "refs/tags/version/2025.8.1"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "8e78e7cef182e5b9f032ba966f6f06603fa6fb2435de130fe2d140a366f2751f",
+            "SandboxKey": "/var/run/docker/netns/8e78e7cef182",
+            "Ports": {},
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "authentik_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "authentik-worker-1",
+                        "worker"
+                    ],
+                    "MacAddress": "2a:2a:8b:91:ce:9e",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "46c7136aa454b9ed87b31eed9a89e59d7fd111299deb8e4ffe1ad459c7ac8581",
+                    "EndpointID": "c08fe68d4bc4df4cf8977a22602f473510703804b7cf02472329857228fc4e19",
+                    "Gateway": "192.168.160.1",
+                    "IPAddress": "192.168.160.4",
+                    "IPPrefixLen": 20,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "authentik-worker-1",
+                        "worker",
+                        "c791d1bb52b1"
+                    ]
+                }
+            }
+        }
+    }
+]
