@@ -1,0 +1,7 @@
+# Ignore Compose volumes, logs & secrets
+*/media/
+*/redis/
+*/database/
+*.bak
+*.log
+.env
